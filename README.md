@@ -1,4 +1,3 @@
-Aqui está o código completo em Markdown para os comandos básicos do Git e GitHub:
 
 ```markdown
 # Comandos Básicos do Git e GitHub
@@ -156,6 +155,3 @@ Mostra uma lista de stashes que foram salvos.
 ```bash
 git stash list
 ```
-```
-
-Este código Markdown cobre os comandos essenciais do Git e GitHub, desde a configuração inicial até a manipulação de branches e commits, incluindo comandos mais avançados como stash.
