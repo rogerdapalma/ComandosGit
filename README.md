@@ -85,6 +85,9 @@ Cria um novo branch para trabalhar em uma funcionalidade separada.
 ```bash
 git branch <NOME_DO_BRANCH>
 ```
+```bash
+git checkout -b <NOME_DO_BRANCH>
+```
 
 ### 10.2. Alternar para um Branch
 Muda para um branch específico.
