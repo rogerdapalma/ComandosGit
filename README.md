@@ -155,47 +155,51 @@ Lista todos os branches locais no repositório.
 ```bash
 git branch
 ```
-### 12. Dando push na branch
+### 13.1 mostrando todas as Branches
+```bash
+git branch --all
+```
+### 14. Dando push na branch
 
 ```bash
 git push -u origin <NOMEDOARQUIVO>
 ```
-## 14. Clonar um Repositório
+## 15. Clonar um Repositório
 Se você quer clonar (copiar) um repositório para sua máquina local.
 
 ```bash
 git clone <URL_DO_REPOSITÓRIO>
 ```
 
-## 15. Reverter um Commit
+## 16. Reverter um Commit
 Desfaz um commit local. Isso pode ser útil se você quiser desfazer um erro.
 
 ```bash
 git reset --hard <HASH_DO_COMMIT>
 ```
 
-## 16. Verificar Diferenças
+## 17. Verificar Diferenças
 Mostra as diferenças entre o diretório de trabalho e o último commit.
 
 ```bash
 git diff
 ```
 
-## 17. Stash de Mudanças
+## 18. Stash de Mudanças
 Guarda temporariamente as mudanças que ainda não estão prontas para commit.
 
 ```bash
 git stash
 ```
 
-## 18. Recuperar Mudanças do Stash
+## 19. Recuperar Mudanças do Stash
 Aplica mudanças que foram guardadas com o comando `git stash`.
 
 ```bash
 git stash pop
 ```
 
-## 19. Ver Logs do Stash
+## 20. Ver Logs do Stash
 Mostra uma lista de stashes que foram salvos.
 
 ```bash
@@ -203,5 +207,5 @@ git stash list
 ```
 
 
-## 20. Abrir editor dentro do VScode
+## 21. Abrir editor dentro do VScode
 Clicando `.` no seu repositorio, ele abrirá o editor online no github
