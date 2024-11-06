@@ -53,6 +53,38 @@ Registra as mudanças adicionadas ao stage com uma mensagem descritiva.
 git commit -m "Sua mensagem de commit"
 ```
 
+### 6.1 Em uma BRANCH e precisar comentar o commit
+Aqui está uma explicação mais detalhada do processo de como realizar um commit no Git utilizando a interface do editor Vim:
+
+    1. **Executar o comando de commit**:
+
+    ```bash
+    git commit
+    ``` 
+    
+    Esse comando inicia o processo de commit, abrindo o editor de texto configurado no seu terminal (geralmente o Vim).
+
+    2. **Entrar no modo de inserção (Insert Mode)**:
+    - Quando o editor Vim abrir, você estará no modo normal (Normal Mode).
+    - Para começar a editar o texto, pressione a tecla **`i`** no teclado. Isso ativa o modo de inserção, permitindo que você digite o texto da mensagem de commit.
+
+    3. **Escrever a mensagem de commit**:
+    - Digite a mensagem que descreve as alterações realizadas. Recomenda-se que a mensagem seja clara e concisa. Por exemplo:
+       
+        Adiciona função de cálculo de média no módulo de estatísticas
+       
+    - A primeira linha deve ser um resumo breve (50 caracteres ou menos). Caso deseje adicionar detalhes adicionais, pule uma linha e forneça mais informações.
+
+    4. **Sair do modo de inserção e voltar para o modo normal**:
+    - Pressione a tecla **`Esc`** para sair do modo de inserção e retornar ao modo normal.
+
+    5. **Salvar as alterações e sair do editor**:
+    - Digite **`:wq`** e pressione **Enter**.
+        - **`:w`** salva as mudanças.
+        - **`:q`** fecha o editor.
+
+    Depois disso, o commit será concluído e registrado no histórico do Git.
+
 ## 7. Ver Histórico de Commits
 Exibe o histórico de commits no repositório.
 
@@ -123,7 +155,11 @@ Lista todos os branches locais no repositório.
 ```bash
 git branch
 ```
+### 12. Dando push na branch
 
+```bash
+git push -u origin <NOMEDOARQUIVO>
+```
 ## 14. Clonar um Repositório
 Se você quer clonar (copiar) um repositório para sua máquina local.
 
