@@ -155,3 +155,7 @@ Mostra uma lista de stashes que foram salvos.
 ```bash
 git stash list
 ```
+
+
+## 20. Abrir editor dentro do VScode
+Clicando `.` no seu repositorio, ele abrirá o editor online no github
