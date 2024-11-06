@@ -5,8 +5,10 @@
 ## 1. Configurar Git
 Configura o Git com seu nome e e-mail. Essas informações serão usadas para identificar as suas contribuições.
 
+```
 ```bash
 git config --global user.name "Seu Nome"
+
 git config --global user.email "seu.email@example.com"
 ```
 
