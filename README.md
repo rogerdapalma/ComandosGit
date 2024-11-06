@@ -1,11 +1,10 @@
 
-```markdown
 # Comandos Básicos do Git e GitHub
 
 ## 1. Configurar Git
 Configura o Git com seu nome e e-mail. Essas informações serão usadas para identificar as suas contribuições.
 
-```
+
 ```bash
 git config --global user.name "Seu Nome"
 
@@ -40,6 +39,11 @@ Adiciona arquivos ou diretórios ao stage para serem preparados para commit.
 git add <ARQUIVO>
 # Adiciona todos os arquivos modificados
 git add .
+```
+### 5.1 Resetando Arquivo Adicionado
+
+```bash
+git reset <ARQUIVO>
 ```
 
 ## 6. Fazer um Commit
@@ -87,6 +91,7 @@ Cria um novo branch para trabalhar em uma funcionalidade separada.
 ```bash
 git branch <NOME_DO_BRANCH>
 ```
+### '10.2. Criando e entrando na Branch direto
 ```bash
 git checkout -b <NOME_DO_BRANCH>
 ```
